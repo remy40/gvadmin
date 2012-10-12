@@ -60,4 +60,3 @@ then
 fi
 
 echo "$PACKET_NUMBER packet(s) saved !"
-${MAIL_CMD} -s "DB_BACKUP - $PACKET_NUMBER packet(s) saved !" ${DB_ADMIN_MAILS}

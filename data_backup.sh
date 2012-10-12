@@ -9,3 +9,5 @@ rdiff-backup --remove-older-than 30D --force ${ELGG_DATA_BACKUP_PATH}
 logger "rdiff_backup_elgg_data: Backup du répertoire ${ELGG_DATA_PATH}."
 rdiff-backup ${ELGG_DATA_PATH} ${ELGG_DATA_BACKUP_PATH}
 logger "rdiff_backup_elgg_data: Fin du backup."
+
+${MAIL_CMD} -s "DATA_BACKUP - OK" ${DB_ADMIN_MAILS}

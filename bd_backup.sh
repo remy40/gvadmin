@@ -3,7 +3,7 @@
 TIMESTAMP=`date +%Y-%m-%d_%H-%M-%S`
 DB_NAME=elgg-gv
 DB_USER=root
-DB_PASSWD=saubion
+DB_PASSWD=
 DB_BACKUP_PATH=/var/backup/databases
 DB_ADMIN_MAILS=remy.gv@gmail.com
 

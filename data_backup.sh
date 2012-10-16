@@ -1,6 +1,7 @@
 #!/bin/bash
 
-source ./config.sh
+ELGG_DATA_PATH=/var/www/elgg-gv-data
+ELGG_DATA_BACKUP_PATH=/var/backup/data
 
 test -w ${ELGG_DATA_BACKUP_PATH} || mkdir -p ${ELGG_DATA_BACKUP_PATH}
 
